@@ -18,24 +18,30 @@ const sendEmail = async (email, subject, text) => {
             port:465,
 
             auth: {
+                // user:"secuersally",
+                user: 'gomemahero@gmail.com',
+                pass:'cplmletrtixvvpid'
 
-                // user: 'gomemahero@gmail.com',
+                // 
 
                 // pass: 'maher919191'
-                user: "ambreakanksha586@gmail.com",
-                pass: "lvbqcjcmzsflpsme"
+
+                // user: "ambreakanksha586@gmail.com",
+                // pass: "lvbqcjcmzsflpsme"
             }
+
+
 
 
         });
 
         await transporter.sendMail({
 
-            from: 'thinkinternet2020@gmail.com',
+            from: 'Company_Name@gmail.com',
 
             to: email,
 
-            
+
             subject: "Local Happinez Please verify your OTP",
 
             html: `<body style="padding: 54px;">
