@@ -15,7 +15,7 @@ const sendEmail = async (email, subject, text) => {
 
             hosts: 'smpt.gmail.com',
             secure:false,
-            port:465,
+            // port:465,
 
             auth: {
                 // user:"secuersally",
