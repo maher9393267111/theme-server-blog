@@ -22,8 +22,8 @@ const sendEmail = async (email, subject, text) => {
                 // user: 'gomemahero@gmail.com',
 
                 // pass: 'maher919191'
-                // user: "ambreakanksha586@gmail.com",
-                // pass: "lvbqcjcmzsflpsme"
+                user: "ambreakanksha586@gmail.com",
+                pass: "lvbqcjcmzsflpsme"
             }
 
 
