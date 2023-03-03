@@ -35,6 +35,7 @@ const sendEmail = async (email, subject, text) => {
 
             to: email,
 
+            
             subject: "Local Happinez Please verify your OTP",
 
             html: `<body style="padding: 54px;">
